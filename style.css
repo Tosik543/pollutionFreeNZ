@@ -448,3 +448,90 @@ iframe {
 background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(83,0,121,1) 87%);
 }
+
+
+
+/*below this line is what to fix*/
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgb(0, 51, 11) 0%, rgba(5,108,0,1) 100%);
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+	font-family:DaysFont;
+	font-size:30px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contactContainer {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  display: block;
+  height: auto;
+  border-radius: 20px;
+  border: 2px solid lime;
+  box-shadow: 2px 2px 10px lime;	
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  margin-top: 15px; 
+  background: rgb(0,0,0);
+  background: linear-gradient(342deg, rgba(0,0,0,1) 0%, rgba(5,108,0,1) 100%);
+}
+
+label {
+
+	color: white;
+	font-family:DaysFont;
+	text-align: center;
+
+}
+
+
+
+
+
